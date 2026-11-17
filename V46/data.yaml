@@ -52,6 +52,9 @@ Resources:
       MultiAZ: false
       BackupRetentionPeriod: 1
       DeleteAutomatedBackups: true
+      Tags:
+          Key: Course
+          Value: MOV25
 
   FileSystem:
     Type: AWS::EFS::FileSystem
